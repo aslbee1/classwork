@@ -25,7 +25,15 @@
 # print(a,b,c)
 
 # 6
-a = int(input('giveme one number: '))
-b = int(input('give me second number: '))
-c = int(input('give me third number: '))
-print(a+b+c)
+# a = int(input('giveme one number: '))
+# b = int(input('give me second number: '))
+# c = int(input('give me third number: '))
+# print(a+b+c)
+
+# 7
+a = 10
+b = 10.2
+c = '10'
+b = int(10)
+c = int(10)
+print(a*b*c)
