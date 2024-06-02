@@ -53,16 +53,38 @@
 #     print('Пороль не принят')
 
 # 11
-a = int(input('Введите первое число: '))
-b = int(input('Введите второе число: '))
-c = int(input("Выберите действия: +,-,*,/: "))
-if c == '+':
-    print(a+b)
-if c == '-':
-    print(a-b)
-if c == '/':
-    print(a/b)
-if c == '*':
-    print(a*b)
-else:
-    print("error")
+# a = int(input('Введите первое число: '))
+# b = int(input('Введите второе число: '))
+# c = int(input("Выберите действия: +,-,*,/: "))
+# if c == '+':
+#     print(a+b)
+# if c == '-':
+#     print(a-b)
+# if c == '/':
+#     print(a/b)
+# if c == '*':
+#     print(a*b)
+# else:
+#     print("error")
+
+# 12
+# print('hello world')
+
+# 13
+# переменное это как бы ключ которое в себе содержит значении типа str,foult,int
+
+# 15
+# a = 10
+# b = 5
+# if a / 2 ==0:
+#     print('четное')
+# else:
+#     print('не четное')
+# if b / 2:
+#     print('четное')
+# else:
+#     print('не четное')
+
+# 16
+for i in range(1,100):
+    print(i)
