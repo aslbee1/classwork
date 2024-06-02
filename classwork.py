@@ -9,6 +9,11 @@
 # print(a * 5,b)
 
 # 3
-a = 5,'f','привет',90.2
-b = [67]
-print(a[2])
+# a = 5,'f','привет',90.2
+# b = [67]
+# print(a[2])
+
+# 4
+num = str(input('Write the four-digit num: '))
+num = list(str(num))
+print(num)
