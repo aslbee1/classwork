@@ -19,7 +19,13 @@
 # print(num)
 
 # 5
-a = input('Как вас зовут?: ')
-b = input('Ваша фамилия?: ')
-c = input('Сколько вам лет?: ')
-print(a,b,c)
+# a = input('Как вас зовут?: ')
+# b = input('Ваша фамилия?: ')
+# c = input('Сколько вам лет?: ')
+# print(a,b,c)
+
+# 6
+a = int(input('giveme one number: '))
+b = int(input('give me second number: '))
+c = int(input('give me third number: '))
+print(a+b+c)
