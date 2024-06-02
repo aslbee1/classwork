@@ -14,6 +14,12 @@
 # print(a[2])
 
 # 4
-num = str(input('Write the four-digit num: '))
-num = list(str(num))
-print(num)
+# num = str(input('Write the four-digit num: '))
+# num = list(str(num))
+# print(num)
+
+# 5
+a = input('Как вас зовут?: ')
+b = input('Ваша фамилия?: ')
+c = input('Сколько вам лет?: ')
+print(a,b,c)
