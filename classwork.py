@@ -45,9 +45,24 @@
 # print(a+b+c)
 
 # 9
-a = input('введите пороль: ')
-b = input('повторите пороль: ')
-if a == b:
-    print("Пороль принят")
+# a = input('введите пороль: ')
+# b = input('повторите пороль: ')
+# if a == b:
+#     print("Пороль принят")
+# else:
+#     print('Пороль не принят')
+
+# 11
+a = int(input('Введите первое число: '))
+b = int(input('Введите второе число: '))
+c = int(input("Выберите действия: +,-,*,/: "))
+if c == '+':
+    print(a+b)
+if c == '-':
+    print(a-b)
+if c == '/':
+    print(a/b)
+if c == '*':
+    print(a*b)
 else:
-    print('Пороль не принят')
+    print("error")
